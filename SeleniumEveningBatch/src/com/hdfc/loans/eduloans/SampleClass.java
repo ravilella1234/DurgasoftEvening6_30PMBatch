@@ -6,8 +6,6 @@ public class SampleClass {
 		// TODO Auto-generated method stub
 		System.out.println("Hi ");
 		System.out.println("Hello");
-		
-		System.out.println("Iam end line");
 	}
 
 }
