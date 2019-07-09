@@ -10,4 +10,5 @@ public abstract class FirstAbstract
 	public abstract void m2();
 	
 	
+	
 }
