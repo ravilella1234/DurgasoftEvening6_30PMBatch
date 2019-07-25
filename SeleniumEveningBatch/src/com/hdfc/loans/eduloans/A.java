@@ -1,9 +1,30 @@
 package com.hdfc.loans.eduloans;
 
-public strictfp class A 
+import com.hdfc.loans.carloans.C;
+
+public  class A 
 {
-	 public  void m1() 
+	
+	public  Number m1(int i)
+	{
+		System.out.println(i);
+		return i;
+	}
+	
+	
+ 
+	 public static void main(String[] args)  
 	 {
-		 System.out.println("iam m1 from class A");
+		 A a=new A();
+		 a.m1(100);
+		 
+		 A obj;
+		 
+		 obj=new B();
+		 obj.m1(100);
+		 
+		 obj=new C();
+		 obj.m1(200);
+		
 	 }
 }

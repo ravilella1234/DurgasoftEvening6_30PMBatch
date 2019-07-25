@@ -1,20 +1,28 @@
 package com.hdfc.loans.carloans;
 
-public class ChildClass extends FirstAbstract
+import com.hdfc.loans.eduloans.Employee;
+
+public class ChildClass extends Employee
 {
+	String city;
+
+	public ChildClass(String city) 
+	{
+		super(1745,"saikeerthan",12000.00f);
+		this.city=city;
+		System.out.println(this.city);
+	}
+	
+	public void m1()
+	{
+		
+	}
+	
+	
 
 	public static void main(String[] args) 
 	{
-		ChildClass c=new ChildClass();
-		c.m1();
-		c.m2();
+		ChildClass c=new ChildClass("Hyderabad");
 
 	}
-
-	@Override
-	public void m2() {
-		System.out.println("iam overriden m2 in ChildClass");
-		
-	}
-
 }
