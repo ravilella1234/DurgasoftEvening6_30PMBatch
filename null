@@ -1,10 +1,524 @@
-1565098539328	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\DELL\\AppData\\Local\\Temp\\rust_mozprofile.MPkamJaWVmDi"
-1565098540164	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
-1565098540164	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
-1565098540164	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
-[Child 17696, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1559133604/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
-1565098544648	Marionette	INFO	Listening on port 56251
-1565098544753	Marionette	WARN	TLS certificate errors will be ignored for this session
-JavaScript warning: https://www.icicibank.com/assets/js/lib/nli-index-library.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
-JavaScript warning: https://www.icicibank.com/assets/js/lib/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
-JavaScript error: https://www.icicibank.com/assets/js/offer-json.js, line 57: TypeError: cookieVal is undefined
+[1565184722.253][INFO]: Starting ChromeDriver 74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29})
+[1565184722.253][INFO]: Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+[1565184723.394][INFO]: [09d788b0b24794e138dca67bb330958c] COMMAND InitSession {
+   "capabilities": {
+      "desiredCapabilities": {
+         "browserName": "chrome",
+         "goog:chromeOptions": {
+            "args": [ "user-data-dir=C:\\Users\\DELL\\AppData\\Local\\Google\\Chrome\\User Data\\Profile 6", "--disable-notifications", "--disable-infobars", "--start-maximized" ],
+            "extensions": [  ]
+         }
+      },
+      "firstMatch": [ {
+         "browserName": "chrome",
+         "goog:chromeOptions": {
+            "args": [ "user-data-dir=C:\\Users\\DELL\\AppData\\Local\\Google\\Chrome\\User Data\\Profile 6", "--disable-notifications", "--disable-infobars", "--start-maximized" ],
+            "extensions": [  ]
+         }
+      } ]
+   },
+   "desiredCapabilities": {
+      "browserName": "chrome",
+      "goog:chromeOptions": {
+         "args": [ "user-data-dir=C:\\Users\\DELL\\AppData\\Local\\Google\\Chrome\\User Data\\Profile 6", "--disable-notifications", "--disable-infobars", "--start-maximized" ],
+         "extensions": [  ]
+      }
+   }
+}
+[1565184723.412][INFO]: Populating Preferences file: {
+   "account_id_migration_state": 2,
+   "account_tracker_service_last_update": "13209657539362884",
+   "alternate_error_pages": {
+      "enabled": false
+   },
+   "autocomplete": {
+      "retention_policy_last_version": 75
+   },
+   "autofill": {
+      "credit_card_enabled": false,
+      "enabled": false,
+      "japan_city_field_migrated_to_street_address": true,
+      "orphan_rows_removed": true,
+      "profile_enabled": false
+   },
+   "browser": {
+      "check_default_browser": false,
+      "window_placement": {
+         "bottom": 718,
+         "left": 10,
+         "maximized": true,
+         "right": 1060,
+         "top": 10,
+         "work_area_bottom": 728,
+         "work_area_left": 0,
+         "work_area_right": 1366,
+         "work_area_top": 0
+      }
+   },
+   "countryid_at_install": 18766,
+   "data_reduction": {
+      "daily_original_length": [ "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "2089736" ],
+      "daily_original_length_application": "0",
+      "daily_original_length_unknown": "2089736",
+      "daily_original_length_via_data_reduction_proxy": [ "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0" ],
+      "daily_original_length_via_data_reduction_proxy_application": "0",
+      "daily_original_length_via_data_reduction_proxy_unknown": "1998765",
+      "daily_original_length_via_data_reduction_proxy_video": "0",
+      "daily_original_length_video": "0",
+      "daily_original_length_with_data_reduction_proxy_enabled": [ "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0" ],
+      "daily_original_length_with_data_reduction_proxy_enabled_application": "0",
+      "daily_original_length_with_data_reduction_proxy_enabled_unknown": "0",
+      "daily_original_length_with_data_reduction_proxy_enabled_video": "0",
+      "daily_received_length": [ "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "2089736" ],
+      "daily_received_length_application": "0",
+      "daily_received_length_https_with_data_reduction_proxy_enabled": [ "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0" ],
+      "daily_received_length_long_bypass_with_data_reduction_proxy_enabled": [ "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0" ],
+      "daily_received_length_short_bypass_with_data_reduction_proxy_enabled": [ "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0" ],
+      "daily_received_length_unknown": "2089736",
+      "daily_received_length_unknown_with_data_reduction_proxy_enabled": [ "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0" ],
+      "daily_received_length_via_data_reduction_proxy": [ "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0" ],
+      "daily_received_length_via_data_reduction_proxy_application": "0",
+      "daily_received_length_via_data_reduction_proxy_unknown": "1998765",
+      "daily_received_length_via_data_reduction_proxy_video": "0",
+      "daily_received_length_video": "0",
+      "daily_received_length_with_data_reduction_proxy_enabled": [ "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0" ],
+      "daily_received_length_with_data_reduction_proxy_enabled_application": "0",
+      "daily_received_length_with_data_reduction_proxy_enabled_unknown": "0",
+      "daily_received_length_with_data_reduction_proxy_enabled_video": "0",
+      "last_update_date": "13209589800000000",
+      "network_properties": {
+
+      },
+      "this_week_number": 2587,
+      "this_week_services_downstream_foreground_kb": {
+         "112189210": 2,
+         "23472048": 0,
+         "35473769": 0,
+         "35565745": 3,
+         "41424546": 3,
+         "67052219": 0,
+         "78917933": 80,
+         "95682324": 2
+      },
+      "this_week_user_traffic_contenttype_downstream_kb": {
+         "0": 1952
+      }
+   },
+   "distribution": {
+      "import_bookmarks": false,
+      "import_history": false,
+      "import_search_engine": false,
+      "make_chrome_default_for_user": false,
+      "skip_first_run_ui": true
+   },
+   "dns_prefetching": {
+      "enabled": false
+   },
+   "extensions": {
+      "alerts": {
+         "initialized": true
+      },
+      "chrome_url_overrides": {
+
+      }
+   },
+   "gaia_cookie": {
+      "changed_time": 1565183941.394304,
+      "hash": "2jmj7l5rSw0yVb/vlWAYkK/YBwk="
+   },
+   "gcm": {
+      "product_category_for_subtypes": "com.chrome.windows"
+   },
+   "google": {
+      "services": {
+         "signin_scoped_device_id": "e74e8ccf-2afa-4bed-91e4-eb6c1549df46"
+      }
+   },
+   "http_original_content_length": "2089736",
+   "http_received_content_length": "2089736",
+   "invalidator": {
+      "client_id": "intXbU6YXsuNaK/tmjEA0g=="
+   },
+   "language_model_counters": {
+      "en": 4
+   },
+   "media": {
+      "device_id_salt": "5AD1816F247DF1C1C7D98E00A244B11A",
+      "engagement": {
+         "schema_version": 4
+      }
+   },
+   "ntp": {
+      "custom_background_local_to_device": false,
+      "num_personal_suggestions": 2
+   },
+   "plugins": {
+      "plugins_list": [  ]
+   },
+   "previews": {
+      "litepage": {
+         "user-needs-notification": false
+      }
+   },
+   "profile": {
+      "avatar_index": 26,
+      "content_settings": {
+         "exceptions": {
+            "accessibility_events": {
+
+            },
+            "app_banner": {
+
+            },
+            "auto_select_certificate": {
+
+            },
+            "automatic_downloads": {
+
+            },
+            "autoplay": {
+
+            },
+            "background_sync": {
+
+            },
+            "bluetooth_guard": {
+
+            },
+            "client_hints": {
+
+            },
+            "clipboard": {
+
+            },
+            "cookies": {
+
+            },
+            "durable_storage": {
+
+            },
+            "flash_data": {
+
+            },
+            "geolocation": {
+
+            },
+            "images": {
+
+            },
+            "important_site_info": {
+
+            },
+            "intent_picker_auto_display": {
+
+            },
+            "javascript": {
+
+            },
+            "media_engagement": {
+               "https://www.icicibank.com:443,*": {
+                  "last_modified": "13209657826106423",
+                  "setting": {
+                     "audiblePlaybacks": 0,
+                     "audioContextPlaybacks": 0,
+                     "hasHighScore": false,
+                     "highScoreChanges": 0,
+                     "lastMediaPlaybackTime": 0.0,
+                     "mediaElementPlaybacks": 0,
+                     "mediaPlaybacks": 0,
+                     "significantPlaybacks": 0,
+                     "visits": 3,
+                     "visitsWithMediaTag": 0
+                  }
+               }
+            },
+            "media_stream_camera": {
+
+            },
+            "media_stream_mic": {
+
+            },
+            "midi_sysex": {
+
+            },
+            "mixed_script": {
+
+            },
+            "notifications": {
+
+            },
+            "password_protection": {
+
+            },
+            "payment_handler": {
+
+            },
+            "permission_autoblocking_data": {
+
+            },
+            "plugins": {
+
+            },
+            "popups": {
+
+            },
+            "ppapi_broker": {
+
+            },
+            "protocol_handler": {
+
+            },
+            "sensors": {
+
+            },
+            "serial_chooser_data": {
+
+            },
+            "serial_guard": {
+
+            },
+            "site_engagement": {
+               "https://www.icicibank.com:443,*": {
+                  "last_modified": "13209657817244056",
+                  "setting": {
+                     "lastEngagementTime": 13209657817244028.0,
+                     "lastShortcutLaunchTime": 0.0,
+                     "pointsAddedToday": 6.0,
+                     "rawScore": 6.0
+                  }
+               }
+            },
+            "sound": {
+
+            },
+            "ssl_cert_decisions": {
+
+            },
+            "subresource_filter": {
+
+            },
+            "subresource_filter_data": {
+
+            },
+            "usb_chooser_data": {
+
+            },
+            "usb_guard": {
+
+            }
+         },
+         "pattern_pairs": {
+            "https://*,*": {
+               "media-stream": {
+                  "audio": "Default",
+                  "video": "Default"
+               }
+            }
+         },
+         "pref_version": 1
+      },
+      "default_content_setting_values": {
+         "geolocation": 1
+      },
+      "default_content_settings": {
+         "geolocation": 1,
+         "mouselock": 1,
+         "notifications": 1,
+         "popups": 1,
+         "ppapi-broker": 1
+      },
+      "exit_type": "Normal",
+      "exited_cleanly": true,
+      "last_engagement_time": "13209657817244029",
+      "last_time_obsolete_http_credentials_removed": 1565183997.932065,
+      "managed_user_id": "",
+      "name": "Person 1",
+      "observed_session_time": {
+         "incognito_window_in_product_help_observed_session_time_key": 74.0,
+         "new_tab_in_product_help_observed_session_time_key": 74.0
+      },
+      "password_manager_enabled": false
+   },
+   "safebrowsing": {
+      "enabled": false
+   },
+   "search": {
+      "suggest_enabled": false
+   },
+   "signin": {
+      "AccountReconcilor": {
+         "kDiceMigrationOnStartup2": true
+      },
+      "DiceMigrationComplete": true,
+      "allowed": true
+   },
+   "token_service": {
+      "dice_compatible": true
+   },
+   "translate": {
+      "enabled": false
+   },
+   "translate_site_blacklist_with_time": {
+
+   }
+}
+[1565184723.426][INFO]: Populating Local State file: {
+   "background_mode": {
+      "enabled": false
+   },
+   "browser": {
+      "has_seen_win10_promo_page": true
+   },
+   "hardware_acceleration_mode_previous": true,
+   "password_manager": {
+      "os_password_blank": false,
+      "os_password_last_changed": "13209453440933496"
+   },
+   "policy": {
+      "last_statistics_update": "13209657537766710"
+   },
+   "profile": {
+      "info_cache": {
+         "Default": {
+            "active_time": 1565183937.987764,
+            "avatar_icon": "chrome://theme/IDR_PROFILE_AVATAR_26",
+            "background_apps": false,
+            "gaia_id": "",
+            "is_ephemeral": false,
+            "is_omitted_from_profile_list": false,
+            "is_using_default_avatar": true,
+            "is_using_default_name": true,
+            "local_auth_credentials": "",
+            "managed_user_id": "",
+            "name": "Person 1",
+            "user_name": ""
+         }
+      },
+      "last_active_profiles": [  ]
+   },
+   "rappor": {
+      "cohort_seed": 400,
+      "secret": "2LLue/Yq1nX80ctnL/dDUlz0TKAM6DOFw6hEWcT1+0Ie/gCgC8BgJGhdcSzSLZOL"
+   },
+   "shutdown": {
+      "num_processes": 3,
+      "num_processes_slow": 0,
+      "type": 1
+   },
+   "ssl": {
+      "rev_checking": {
+         "enabled": false
+      }
+   },
+   "startup_metric": {
+      "last_startup_timestamp": "13209658277070482",
+      "last_startup_version": "75.0.3770.142",
+      "same_version_startup_count": 4
+   },
+   "subresource_filter": {
+      "ruleset_version": {
+         "checksum": 0,
+         "content": "",
+         "format": 0
+      }
+   },
+   "supervised_users": {
+      "whitelists": {
+
+      }
+   },
+   "tab_stats": {
+      "last_daily_sample": "13209657537996811",
+      "max_tabs_per_window": 1,
+      "total_tab_count_max": 1,
+      "window_count_max": 1
+   },
+   "ukm": {
+      "persisted_logs": [  ]
+   },
+   "uninstall_metrics": {
+      "installation_date2": "1559749160",
+      "launch_count": "4",
+      "page_load_count": "11"
+   },
+   "user_experience_metrics": {
+      "client_id2": "3364d3a5-3df7-4b60-8c4b-22f15ad4e6f7",
+      "client_id_timestamp": "1559635038",
+      "low_entropy_source3": 322,
+      "machine_id": 4809022,
+      "session_id": 3,
+      "stability": {
+         "breakpad_registration_fail": 0,
+         "breakpad_registration_ok": 0,
+         "browser_last_live_timestamp": "13209658307290015",
+         "child_process_crash_count": 0,
+         "crash_count": 0,
+         "debugger_not_present": 4,
+         "debugger_present": 0,
+         "deferred_count": 0,
+         "discard_count": 1,
+         "exited_cleanly": true,
+         "extension_renderer_crash_count": 0,
+         "extension_renderer_failed_launch_count": 0,
+         "extension_renderer_launch_count": 4,
+         "gpu_crash_count": 0,
+         "incomplete_session_end_count": 0,
+         "launch_count": 4,
+         "page_load_count": 11,
+         "plugin_stats2": [  ],
+         "renderer_crash_count": 0,
+         "renderer_failed_launch_count": 0,
+         "renderer_hang_count": 0,
+         "renderer_launch_count": 15,
+         "session_end_completed": true,
+         "stats_buildtime": "1562907600",
+         "stats_version": "75.0.3770.142-64",
+         "system_crash_count": 0,
+         "version_mismatch_count": 0
+      }
+   },
+   "was": {
+      "restarted": false
+   }
+}
+[1565184723.441][INFO]: Cannot switch to US keyboard layout - some keys may be interpreted incorrectly
+[1565184723.442][INFO]: Launching chrome: "C:\Program Files (x86)\Google\Chrome\Application\chrome.exe" --disable-background-networking --disable-client-side-phishing-detection --disable-default-apps --disable-hang-monitor --disable-infobars --disable-notifications --disable-popup-blocking --disable-prompt-on-repost --disable-sync --disable-web-resources --enable-automation --enable-blink-features=ShadowDOMV0 --enable-logging --force-fieldtrials=SiteIsolationExtensions/Control --ignore-certificate-errors --load-extension="C:\Users\DELL\AppData\Local\Temp\scoped_dir17296_30423\internal" --log-level=0 --no-first-run --password-store=basic --remote-debugging-port=0 --start-maximized --test-type=webdriver --use-mock-keychain --user-data-dir="C:\Users\DELL\AppData\Local\Google\Chrome\User Data\Profile 6"
+[1565184724.509][WARNING]: This version of ChromeDriver has not been tested with Chrome version 75.
+[1565184724.551][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1565184725.564][INFO]: [09d788b0b24794e138dca67bb330958c] RESPONSE InitSession {
+   "acceptInsecureCerts": false,
+   "acceptSslCerts": false,
+   "applicationCacheEnabled": false,
+   "browserConnectionEnabled": false,
+   "browserName": "chrome",
+   "chrome": {
+      "chromedriverVersion": "74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29})",
+      "userDataDir": "C:\\Users\\DELL\\AppData\\Local\\Google\\Chrome\\User Data\\Profile 6"
+   },
+   "cssSelectorsEnabled": true,
+   "databaseEnabled": false,
+   "goog:chromeOptions": {
+      "debuggerAddress": "localhost:61091"
+   },
+   "handlesAlerts": true,
+   "hasTouchScreen": false,
+   "javascriptEnabled": true,
+   "locationContextEnabled": true,
+   "mobileEmulationEnabled": false,
+   "nativeEvents": true,
+   "networkConnectionEnabled": false,
+   "pageLoadStrategy": "normal",
+   "platform": "Windows NT",
+   "proxy": {
+
+   },
+   "~~~": "..."
+}
+[1565184725.653][INFO]: [09d788b0b24794e138dca67bb330958c] COMMAND Navigate {
+   "url": "https://www.icicibank.com/"
+}
+[1565184725.653][INFO]: Waiting for pending navigations...
+[1565184725.666][INFO]: Done waiting for pending navigations. Status: ok
+[1565184727.024][INFO]: Waiting for pending navigations...
+[1565184733.128][INFO]: Done waiting for pending navigations. Status: ok
+[1565184733.128][INFO]: [09d788b0b24794e138dca67bb330958c] RESPONSE Navigate
