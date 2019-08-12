@@ -3,8 +3,10 @@ package com.selenium;
 import java.io.FileInputStream;
 import java.util.Properties;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.Proxy;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeDriverService;
 import org.openqa.selenium.chrome.ChromeOptions;
@@ -25,7 +27,9 @@ public class BaseTest
 	public static WebDriver driver;
 	//public static String datapath="./data.properties";
 	public static String datapath=System.getProperty("user.dir")+"//data.properties";
+	public static String amazonorpath=System.getProperty("user.dir")+"//amazonor.properties";
 	public static Properties dataload=null;
+	public static Properties amazonload=null;
 	
 	
 	public static void init() throws Exception
@@ -33,6 +37,12 @@ public class BaseTest
 		FileInputStream fis=new FileInputStream(datapath);
 		dataload=new Properties();
 		dataload.load(fis);
+		
+		FileInputStream fis1=new FileInputStream(amazonorpath);
+		amazonload=new Properties();
+		amazonload.load(fis1);
+		
+		
 		System.out.println("data file got loaded......");
 	}
 	
@@ -132,5 +142,49 @@ public class BaseTest
 		driver.navigate().to(dataload.getProperty(url));
 		//driver.manage().window().maximize();
 	}
+	
+	
+	public static void clickObject(String locatorKey)
+	{
+		//driver.findElement(By.xpath(amazonload.getProperty(locatorKey))).click();
+		getElement(locatorKey).click();
+	}
+
+	public static void typeText(String locatorKey, String value) 
+	{
+		//driver.findElement(By.name(amazonload.getProperty(locatorKey))).sendKeys(value);
+		getElement(locatorKey).sendKeys(value);
+	}
+
+	public static void selectOption(String locatorKey, String option)
+	{
+		//driver.findElement(By.id(amazonload.getProperty(locatorKey))).sendKeys(option);
+		getElement(locatorKey).sendKeys(option);
+		
+	}
+
+	public static WebElement getElement(String locatorKey)
+	{
+		WebElement element=null;
+		
+		if(locatorKey.endsWith("_id")) {
+			element=driver.findElement(By.id(amazonload.getProperty(locatorKey)));
+		}else if(locatorKey.endsWith("_name")) {
+			element=driver.findElement(By.name(amazonload.getProperty(locatorKey)));
+		}else if(locatorKey.endsWith("_classname")) {
+			element=driver.findElement(By.className(amazonload.getProperty(locatorKey)));
+		}else if(locatorKey.endsWith("_xpath")) {
+			element=driver.findElement(By.xpath(amazonload.getProperty(locatorKey)));
+		}else if(locatorKey.endsWith("_css")) {
+			element=driver.findElement(By.cssSelector(amazonload.getProperty(locatorKey)));
+		}else if(locatorKey.endsWith("_linktext")) {
+			element=driver.findElement(By.linkText(amazonload.getProperty(locatorKey)));
+		}else if(locatorKey.endsWith("_partiallinktext")) {
+			element=driver.findElement(By.partialLinkText(amazonload.getProperty(locatorKey)));
+		}
+		return element;
+		
+	}
+	
 
 }
