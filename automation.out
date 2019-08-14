@@ -1,0 +1,8 @@
+Loading the Configuration files....
+Launching the browser :chrome
+Loading the Configuration files....
+Launching the browser :chrome
+Navigating to url : https://www.amazon.in
+Selected the value Books By using the locator : - searchDropdownBox
+Entered the text Harrypotter by using the locator : -twotabsearchtextbox
+Clicked on Search Button By using Locator  : //div[@class='nav-search-submit nav-sprite']//input[@class='nav-input']

@@ -3,6 +3,7 @@ package com.selenium;
 import java.io.FileInputStream;
 import java.util.Properties;
 
+import org.apache.log4j.PropertyConfigurator;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Proxy;
 import org.openqa.selenium.WebDriver;
@@ -22,14 +23,23 @@ import org.openqa.selenium.ie.InternetExplorerOptions;
 import org.openqa.selenium.remote.CapabilityType;
 import org.openqa.selenium.remote.DesiredCapabilities;
 
+import com.relevantcodes.extentreports.ExtentReports;
+import com.relevantcodes.extentreports.ExtentTest;
+
 public class BaseTest 
 {
 	public static WebDriver driver;
 	//public static String datapath="./data.properties";
-	public static String datapath=System.getProperty("user.dir")+"//data.properties";
-	public static String amazonorpath=System.getProperty("user.dir")+"//amazonor.properties";
+	public static String projectPath=System.getProperty("user.dir");
+	public static String datapath=projectPath+"//data.properties";
+	public static String amazonorpath=projectPath+"//amazonor.properties";
+	public static String log4jpath=projectPath+"//log4j.properties";
 	public static Properties dataload=null;
 	public static Properties amazonload=null;
+	
+	//Extent Report Initilizer
+	public static ExtentReports report = ExtentManager.getInstance();
+	public static ExtentTest test;
 	
 	
 	public static void init() throws Exception
@@ -41,6 +51,10 @@ public class BaseTest
 		FileInputStream fis1=new FileInputStream(amazonorpath);
 		amazonload=new Properties();
 		amazonload.load(fis1);
+		
+		
+		FileInputStream fis2=new FileInputStream(log4jpath);
+		PropertyConfigurator.configure(fis2);
 		
 		
 		System.out.println("data file got loaded......");
