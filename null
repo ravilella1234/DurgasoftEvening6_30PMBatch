@@ -1,6 +1,6 @@
-[1566309032.502][INFO]: Starting ChromeDriver 76.0.3809.68 (420c9498db8ce8fcd190a954d51297672c1515d5-refs/branch-heads/3809@{#864})
-[1566309032.503][INFO]: Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
-[1566309033.610][INFO]: [c017373f9a5bf3a8e921094f834ccfc9] COMMAND InitSession {
+[1566394822.559][INFO]: Starting ChromeDriver 76.0.3809.68 (420c9498db8ce8fcd190a954d51297672c1515d5-refs/branch-heads/3809@{#864})
+[1566394822.559][INFO]: Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+[1566394823.584][INFO]: [116ffde0e95d4cb792204363c44009ee] COMMAND InitSession {
    "capabilities": {
       "desiredCapabilities": {
          "browserName": "chrome",
@@ -25,9 +25,9 @@
       }
    }
 }
-[1566309033.640][INFO]: Populating Preferences file: {
+[1566394823.609][INFO]: Populating Preferences file: {
    "account_id_migration_state": 2,
-   "account_tracker_service_last_update": "13210780438830782",
+   "account_tracker_service_last_update": "13210866967256053",
    "alternate_error_pages": {
       "enabled": false
    },
@@ -57,35 +57,35 @@
    },
    "countryid_at_install": 18766,
    "data_reduction": {
-      "daily_original_length": [ "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "2230966", "0", "8706843", "1142817", "0", "7231776", "1331260", "2332837", "0", "0", "0", "0", "0", "6356804" ],
+      "daily_original_length": [ "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "2230966", "0", "8706843", "1142817", "0", "7231776", "1331260", "2332837", "0", "0", "0", "0", "0", "6595557", "2386649" ],
       "daily_original_length_application": "0",
-      "daily_original_length_unknown": "6356804",
+      "daily_original_length_unknown": "2386649",
       "daily_original_length_via_data_reduction_proxy": [ "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0" ],
       "daily_original_length_via_data_reduction_proxy_application": "0",
-      "daily_original_length_via_data_reduction_proxy_unknown": "5758942",
+      "daily_original_length_via_data_reduction_proxy_unknown": "2168285",
       "daily_original_length_via_data_reduction_proxy_video": "0",
       "daily_original_length_video": "0",
       "daily_original_length_with_data_reduction_proxy_enabled": [ "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0" ],
       "daily_original_length_with_data_reduction_proxy_enabled_application": "0",
       "daily_original_length_with_data_reduction_proxy_enabled_unknown": "0",
       "daily_original_length_with_data_reduction_proxy_enabled_video": "0",
-      "daily_received_length": [ "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "2230966", "0", "8706843", "1142817", "0", "7231776", "1331260", "2332837", "0", "0", "0", "0", "0", "6356804" ],
+      "daily_received_length": [ "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "2230966", "0", "8706843", "1142817", "0", "7231776", "1331260", "2332837", "0", "0", "0", "0", "0", "6595557", "2386649" ],
       "daily_received_length_application": "0",
       "daily_received_length_https_with_data_reduction_proxy_enabled": [ "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0" ],
       "daily_received_length_long_bypass_with_data_reduction_proxy_enabled": [ "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0" ],
       "daily_received_length_short_bypass_with_data_reduction_proxy_enabled": [ "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0" ],
-      "daily_received_length_unknown": "6356804",
+      "daily_received_length_unknown": "2386649",
       "daily_received_length_unknown_with_data_reduction_proxy_enabled": [ "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0" ],
       "daily_received_length_via_data_reduction_proxy": [ "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0" ],
       "daily_received_length_via_data_reduction_proxy_application": "0",
-      "daily_received_length_via_data_reduction_proxy_unknown": "5758942",
+      "daily_received_length_via_data_reduction_proxy_unknown": "2168285",
       "daily_received_length_via_data_reduction_proxy_video": "0",
       "daily_received_length_video": "0",
       "daily_received_length_with_data_reduction_proxy_enabled": [ "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0" ],
       "daily_received_length_with_data_reduction_proxy_enabled_application": "0",
       "daily_received_length_with_data_reduction_proxy_enabled_unknown": "0",
       "daily_received_length_with_data_reduction_proxy_enabled_video": "0",
-      "last_update_date": "13210713000000000",
+      "last_update_date": "13210799400000000",
       "last_week_services_downstream_background_kb": {
 
       },
@@ -110,13 +110,14 @@
       },
       "this_week_services_downstream_foreground_kb": {
          "35473769": 0,
-         "35565745": 14,
-         "41424546": 14,
-         "67052219": 14,
-         "78917933": 560
+         "35565745": 20,
+         "41424546": 20,
+         "54845618": 4,
+         "67052219": 15,
+         "78917933": 800
       },
       "this_week_user_traffic_contenttype_downstream_kb": {
-         "0": 5623
+         "0": 7931
       }
    },
    "distribution": {
@@ -146,16 +147,16 @@
    },
    "google": {
       "services": {
-         "signin_scoped_device_id": "4f045e10-81a5-4534-96b9-2aa021d1074b"
+         "signin_scoped_device_id": "a7500638-1849-4089-9153-754e25455bbb"
       }
    },
-   "http_original_content_length": "29333303",
-   "http_received_content_length": "29333303",
+   "http_original_content_length": "31958705",
+   "http_received_content_length": "31958705",
    "invalidator": {
       "client_id": "intXbU6YXsuNaK/tmjEA0g=="
    },
    "language_model_counters": {
-      "en": 59
+      "en": 66
    },
    "media": {
       "device_id_salt": "5AD1816F247DF1C1C7D98E00A244B11A",
@@ -211,10 +212,10 @@
             },
             "client_hints": {
                "https://www.amazon.in:443,*": {
-                  "last_modified": "13210782502235137",
+                  "last_modified": "13210867926609586",
                   "setting": {
                      "client_hints": [ 4, 5, 6 ],
-                     "expiration_time": 1566395302.235122
+                     "expiration_time": 1566480726.609541
                   }
                }
             },
@@ -268,7 +269,7 @@
                   }
                },
                "https://www.amazon.in:443,*": {
-                  "last_modified": "13210782628526024",
+                  "last_modified": "13210868293320546",
                   "setting": {
                      "audiblePlaybacks": 0,
                      "audioContextPlaybacks": 0,
@@ -278,7 +279,7 @@
                      "mediaElementPlaybacks": 0,
                      "mediaPlaybacks": 0,
                      "significantPlaybacks": 0,
-                     "visits": 38,
+                     "visits": 44,
                      "visitsWithMediaTag": 0
                   }
                },
@@ -360,27 +361,27 @@
             },
             "site_engagement": {
                "https://www.amazon.in:443,*": {
-                  "last_modified": "13210782502256968",
+                  "last_modified": "13210867926632123",
                   "setting": {
-                     "lastEngagementTime": 13210782502256948.0,
+                     "lastEngagementTime": 13210867926632100.0,
                      "lastShortcutLaunchTime": 0.0,
                      "pointsAddedToday": 15.0,
-                     "rawScore": 25.03816957866263
+                     "rawScore": 23.47377676963215
                   }
                },
                "https://www.google.com:443,*": {
-                  "last_modified": "13210780441192770",
+                  "last_modified": "13210866758559422",
                   "setting": {
-                     "lastEngagementTime": 13210659250988672.0,
+                     "lastEngagementTime": 13210714573540284.0,
                      "lastShortcutLaunchTime": 0.0,
                      "pointsAddedToday": 3.0,
                      "rawScore": 3.0
                   }
                },
                "https://www.icicibank.com:443,*": {
-                  "last_modified": "13210780441192855",
+                  "last_modified": "13210866758559492",
                   "setting": {
-                     "lastEngagementTime": 13210600362710272.0,
+                     "lastEngagementTime": 13210655685261884.0,
                      "lastShortcutLaunchTime": 0.0,
                      "pointsAddedToday": 7.5,
                      "rawScore": 7.5
@@ -428,13 +429,13 @@
       },
       "exit_type": "Normal",
       "exited_cleanly": true,
-      "last_engagement_time": "13210782502256948",
+      "last_engagement_time": "13210867926632100",
       "last_time_obsolete_http_credentials_removed": 1565183997.932065,
       "managed_user_id": "",
       "name": "Person 1",
       "observed_session_time": {
-         "incognito_window_in_product_help_observed_session_time_key": 623.0,
-         "new_tab_in_product_help_observed_session_time_key": 623.0
+         "incognito_window_in_product_help_observed_session_time_key": 637.0,
+         "new_tab_in_product_help_observed_session_time_key": 637.0
       },
       "password_manager_enabled": false
    },
@@ -465,7 +466,7 @@
 
    }
 }
-[1566309033.668][INFO]: Populating Local State file: {
+[1566394823.632][INFO]: Populating Local State file: {
    "background_mode": {
       "enabled": false
    },
@@ -475,15 +476,15 @@
    "hardware_acceleration_mode_previous": true,
    "password_manager": {
       "os_password_blank": false,
-      "os_password_last_changed": "13209453440363979"
+      "os_password_last_changed": "13209453440738541"
    },
    "policy": {
-      "last_statistics_update": "13210780438462265"
+      "last_statistics_update": "13210866966872142"
    },
    "profile": {
       "info_cache": {
          "Default": {
-            "active_time": 1566306838.756707,
+            "active_time": 1566393157.16879,
             "avatar_icon": "chrome://theme/IDR_PROFILE_AVATAR_26",
             "background_apps": false,
             "gaia_id": "",
@@ -508,7 +509,7 @@
       "secret": "2LLue/Yq1nX80ctnL/dDUlz0TKAM6DOFw6hEWcT1+0Ie/gCgC8BgJGhdcSzSLZOL"
    },
    "shutdown": {
-      "num_processes": 4,
+      "num_processes": 5,
       "num_processes_slow": 1,
       "type": 1
    },
@@ -518,15 +519,15 @@
       }
    },
    "startup_metric": {
-      "last_startup_timestamp": "13210782500070830",
+      "last_startup_timestamp": "13210867924369238",
       "last_startup_version": "76.0.3809.100",
-      "same_version_startup_count": 39
+      "same_version_startup_count": 45
    },
    "subresource_filter": {
       "ruleset_version": {
-         "checksum": 0,
-         "content": "",
-         "format": 0
+         "checksum": 977994063,
+         "content": "9.3",
+         "format": 26
       }
    },
    "supervised_users": {
@@ -535,7 +536,7 @@
       }
    },
    "tab_stats": {
-      "last_daily_sample": "13210780438767931",
+      "last_daily_sample": "13210866967240032",
       "max_tabs_per_window": 1,
       "total_tab_count_max": 1,
       "window_count_max": 1
@@ -545,86 +546,93 @@
    },
    "uninstall_metrics": {
       "installation_date2": "1559749160",
-      "launch_count": "44",
-      "page_load_count": "144"
+      "launch_count": "50",
+      "page_load_count": "163"
    },
    "updateclientdata": {
       "apps": {
          "aemomkdncapdnfajjbbcbdebjljbpmpj": {
             "cohort": "",
             "cohortname": "",
-            "dlrc": 4603,
-            "pf": "6444debe-8774-4a91-b73c-9558166a2277"
+            "dlrc": 4615,
+            "pf": "588e6a1e-a149-41e4-9370-f0e9c09efc38"
          },
          "copjbmjbojbakpaedmpkhmiplmmehfck": {
             "cohort": "1:p1x:",
+            "cohorthint": "Auto",
             "cohortname": "Auto",
-            "dlrc": 4603,
-            "pf": "2a57f36c-2f77-4fa6-af4a-a24e1ab02cef"
+            "dlrc": 4615,
+            "pf": "ad88a25e-a265-44b7-8b09-1dc821251448"
          },
          "ehgidpndbllacpjalkiimkbadgjfnnmc": {
             "cohort": "1:ofl:",
+            "cohorthint": "stable64",
             "cohortname": "stable64",
-            "dlrc": 4603,
-            "pf": "2e3b8a65-3881-4fa4-a93c-cb21218bbc1b"
+            "dlrc": 4615,
+            "pf": "70a259a3-550c-4c2b-8b17-f1fc461fd248"
          },
          "gcmjkmgdlgnkkcocmoeiminaijmmjnii": {
             "cohort": "1:bm1:",
+            "cohorthint": "M54ToM99",
             "cohortname": "M54ToM99",
-            "dlrc": 4603,
-            "pf": "063a84f3-16e7-47ce-8241-342510d2b745"
+            "dlrc": 4615,
+            "pf": "d02a0271-4f71-4faf-90df-d35bb5af3642"
          },
          "giekcmmlnklenlaomppkphknjmnnpneh": {
             "cohort": "1:j5l:",
+            "cohorthint": "Auto",
             "cohortname": "Auto",
-            "dlrc": 4603,
-            "pf": "ebbb20d6-3fb4-4b4f-9308-9cdb390324e3"
+            "dlrc": 4615,
+            "pf": "732d8c51-f7d3-4f9b-9140-dadcd181fed7"
          },
          "gkmgaooipdjhmangpemjhigmamcehddo": {
             "cohort": "",
             "cohortname": "",
-            "dlrc": 4603,
-            "pf": "b01a5aa2-29e4-4c45-925e-33719f716031"
+            "dlrc": 4615,
+            "pf": "cc4d0d02-fad6-449e-b99d-606e56d363dc"
          },
          "hfnkpimlhhgieaddgfemjhofmfblmnib": {
             "cohort": "1:jcl:",
+            "cohorthint": "Auto",
             "cohortname": "Auto",
-            "dlrc": 4603,
-            "pf": "7616674f-6cd5-463a-bad1-87dcc56ad36f"
+            "dlrc": 4615,
+            "pf": "e4d7ac5c-c55c-4a0f-8a2f-d5dde7a169f6"
          },
          "hnimpnehoodheedghdeeijklkeaacbdc": {
             "cohort": "",
             "cohortname": "",
-            "dlrc": 4603,
-            "pf": "34999ff4-a910-466f-8db8-21507de6e24c"
+            "dlrc": 4615,
+            "pf": "235da460-e961-4e3e-a2d8-e2951b6e7e3e"
          },
          "ihnlcenocehgdaegdmhbidjhnhdchfmm": {
             "cohort": "",
             "cohortname": "",
-            "dlrc": 4603,
-            "pf": "40a80b71-1f6b-4d7c-9841-054aabeecb20"
+            "dlrc": 4615,
+            "pf": "bae97380-45d2-4cec-86b1-bc213586b94b"
          },
          "khaoiebndkojlmppeemjhbpbandiljpe": {
             "cohort": "1:cux:",
+            "cohorthint": "Auto",
             "cohortname": "Auto",
-            "dlrc": 4603,
-            "pf": "b64e010b-8391-49a3-8f08-9ff5c09500ae"
+            "dlrc": 4615,
+            "pf": "3904915e-cee5-45a2-a1f4-508d7dc40e3a"
          },
          "llkgjffcdpffmhiakmfcdcblohccpfmo": {
-            "dlrc": 4603,
-            "pf": "dcc188ec-a0a5-4eed-9f80-caea8804a4c9"
+            "dlrc": 4615,
+            "pf": "732d2011-6696-4d61-883b-0566cccde88b"
          },
          "mimojjlkmoijpicakmndhoigimigcmbb": {
             "cohort": "1:d0j:",
+            "cohorthint": "Chrome [M50... M99]",
             "cohortname": "Chrome [M50... M99]",
-            "dlrc": 4603,
-            "pf": "e9793211-81ea-4d33-b107-f765a4d46a35"
+            "dlrc": 4615,
+            "pf": "f3acc52f-e48e-4d52-8a85-08560fb3dac8"
          },
          "oimompecagnajdejgnnjijobebaeigek": {
             "cohort": "",
             "cohortname": "",
-            "dlrc": 4603,
-            "pf": "d09c4c87-16e6-4750-af6c-eea576a96770"
+            "dlrc": 4615,
+            "pf": "0222c180-18a5-4807-a7bf-8f5fe58b1b98"
          }
       }
    },
@@ -633,30 +641,30 @@
       "client_id_timestamp": "1559635038",
       "low_entropy_source3": 322,
       "machine_id": 4809022,
-      "session_id": 43,
+      "session_id": 49,
       "stability": {
          "breakpad_registration_fail": 0,
          "breakpad_registration_ok": 0,
-         "browser_last_live_timestamp": "13210782628608685",
+         "browser_last_live_timestamp": "13210868293427413",
          "child_process_crash_count": 0,
          "crash_count": 0,
-         "debugger_not_present": 39,
+         "debugger_not_present": 45,
          "debugger_present": 0,
          "deferred_count": 0,
          "discard_count": 2,
          "exited_cleanly": true,
          "extension_renderer_crash_count": 0,
          "extension_renderer_failed_launch_count": 0,
-         "extension_renderer_launch_count": 39,
+         "extension_renderer_launch_count": 45,
          "gpu_crash_count": 0,
          "incomplete_session_end_count": 0,
-         "launch_count": 39,
-         "page_load_count": 131,
+         "launch_count": 45,
+         "page_load_count": 150,
          "plugin_stats2": [  ],
          "renderer_crash_count": 0,
          "renderer_failed_launch_count": 0,
          "renderer_hang_count": 0,
-         "renderer_launch_count": 212,
+         "renderer_launch_count": 243,
          "session_end_completed": true,
          "stats_buildtime": "1564981200",
          "stats_version": "76.0.3809.100-64",
@@ -668,10 +676,10 @@
       "restarted": false
    }
 }
-[1566309033.689][INFO]: Cannot switch to US keyboard layout - some keys may be interpreted incorrectly
-[1566309033.689][INFO]: Launching chrome: "C:\Program Files (x86)\Google\Chrome\Application\chrome.exe" --disable-background-networking --disable-client-side-phishing-detection --disable-default-apps --disable-hang-monitor --disable-infobars --disable-notifications --disable-popup-blocking --disable-prompt-on-repost --disable-sync --enable-automation --enable-blink-features=ShadowDOMV0 --enable-logging --force-fieldtrials=SiteIsolationExtensions/Control --ignore-certificate-errors --load-extension="C:\Users\DELL\AppData\Local\Temp\scoped_dir14472_766776531\internal" --log-level=0 --no-first-run --password-store=basic --remote-debugging-port=0 --start-maximized --test-type=webdriver --use-mock-keychain --user-data-dir="C:\Users\DELL\AppData\Local\Google\Chrome\User Data\Profile 6"
-[1566309034.445][INFO]: resolved localhost to ["::1","127.0.0.1"]
-[1566309035.518][INFO]: [c017373f9a5bf3a8e921094f834ccfc9] RESPONSE InitSession {
+[1566394823.644][INFO]: Cannot switch to US keyboard layout - some keys may be interpreted incorrectly
+[1566394823.644][INFO]: Launching chrome: "C:\Program Files (x86)\Google\Chrome\Application\chrome.exe" --disable-background-networking --disable-client-side-phishing-detection --disable-default-apps --disable-hang-monitor --disable-infobars --disable-notifications --disable-popup-blocking --disable-prompt-on-repost --disable-sync --enable-automation --enable-blink-features=ShadowDOMV0 --enable-logging --force-fieldtrials=SiteIsolationExtensions/Control --ignore-certificate-errors --load-extension="C:\Users\DELL\AppData\Local\Temp\scoped_dir8788_2014979053\internal" --log-level=0 --no-first-run --password-store=basic --remote-debugging-port=0 --start-maximized --test-type=webdriver --use-mock-keychain --user-data-dir="C:\Users\DELL\AppData\Local\Google\Chrome\User Data\Profile 6"
+[1566394824.289][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1566394825.306][INFO]: [116ffde0e95d4cb792204363c44009ee] RESPONSE InitSession {
    "capabilities": {
       "acceptInsecureCerts": false,
       "browserName": "chrome",
@@ -681,7 +689,7 @@
          "userDataDir": "C:\\Users\\DELL\\AppData\\Local\\Google\\Chrome\\User Data\\Profile 6"
       },
       "goog:chromeOptions": {
-         "debuggerAddress": "localhost:64533"
+         "debuggerAddress": "localhost:57485"
       },
       "networkConnectionEnabled": false,
       "pageLoadStrategy": "normal",
@@ -698,54 +706,29 @@
       },
       "unhandledPromptBehavior": "dismiss and notify"
    },
-   "sessionId": "c017373f9a5bf3a8e921094f834ccfc9"
+   "sessionId": "116ffde0e95d4cb792204363c44009ee"
 }
-[1566309035.592][INFO]: [c017373f9a5bf3a8e921094f834ccfc9] COMMAND Navigate {
+[1566394825.390][INFO]: [116ffde0e95d4cb792204363c44009ee] COMMAND Navigate {
    "url": "https://www.amazon.in"
 }
-[1566309035.593][INFO]: Waiting for pending navigations...
-[1566309035.608][INFO]: Done waiting for pending navigations. Status: ok
-[1566309036.037][INFO]: Waiting for pending navigations...
-[1566309038.931][INFO]: Done waiting for pending navigations. Status: ok
-[1566309038.931][INFO]: [c017373f9a5bf3a8e921094f834ccfc9] RESPONSE Navigate
-[1566309038.963][INFO]: [c017373f9a5bf3a8e921094f834ccfc9] COMMAND FindElement {
-   "using": "xpath",
-   "value": "//a[contains(text(),'Customer Service')]"
+[1566394825.390][INFO]: Waiting for pending navigations...
+[1566394825.403][INFO]: Done waiting for pending navigations. Status: ok
+[1566394825.743][INFO]: Waiting for pending navigations...
+[1566394828.598][INFO]: Done waiting for pending navigations. Status: ok
+[1566394828.598][INFO]: [116ffde0e95d4cb792204363c44009ee] RESPONSE Navigate
+[1566394828.608][INFO]: [116ffde0e95d4cb792204363c44009ee] COMMAND GetTitle {
+
 }
-[1566309038.964][INFO]: Waiting for pending navigations...
-[1566309039.035][INFO]: Done waiting for pending navigations. Status: ok
-[1566309039.078][INFO]: Waiting for pending navigations...
-[1566309039.111][INFO]: Done waiting for pending navigations. Status: ok
-[1566309039.111][INFO]: [c017373f9a5bf3a8e921094f834ccfc9] RESPONSE FindElement {
-   "element-6066-11e4-a52e-4f735466cecf": "d50c03a7-b573-4269-a5cf-133b3c074e63"
+[1566394828.608][INFO]: Waiting for pending navigations...
+[1566394828.654][INFO]: Done waiting for pending navigations. Status: ok
+[1566394828.670][INFO]: Waiting for pending navigations...
+[1566394828.677][INFO]: Done waiting for pending navigations. Status: ok
+[1566394828.677][INFO]: [116ffde0e95d4cb792204363c44009ee] RESPONSE GetTitle "Online Shopping site in India: Shop Online for Mobiles, Books, Watches, Shoes and More - Amazon.in"
+[1566394828.689][INFO]: [116ffde0e95d4cb792204363c44009ee] COMMAND Screenshot {
+
 }
-[1566309039.132][INFO]: [c017373f9a5bf3a8e921094f834ccfc9] COMMAND ExecuteScript {
-   "args": [ {
-      "element-6066-11e4-a52e-4f735466cecf": "d50c03a7-b573-4269-a5cf-133b3c074e63"
-   }, "innerHTML" ],
-   "script": "return (function(){return function(){var d=this;function f(a){return\"string\"==typeof a};function h(a,b){this.code=a;this.a=l[a]||m;this.message=b||\"\";a=this.a.replace(/((?:^|\\s+)[a-z])/g,function(a..."
-}
-[1566309039.132][INFO]: Waiting for pending navigations...
-[1566309039.203][INFO]: Done waiting for pending navigations. Status: ok
-[1566309039.235][INFO]: Waiting for pending navigations...
-[1566309039.471][INFO]: Done waiting for pending navigations. Status: ok
-[1566309039.471][INFO]: [c017373f9a5bf3a8e921094f834ccfc9] RESPONSE ExecuteScript "Customer Service"
-[1566309039.487][INFO]: [c017373f9a5bf3a8e921094f834ccfc9] COMMAND FindElement {
-   "using": "xpath",
-   "value": "//a[contains(text(),'Customer Service')]"
-}
-[1566309039.487][INFO]: Waiting for pending navigations...
-[1566309039.489][INFO]: Done waiting for pending navigations. Status: ok
-[1566309039.506][INFO]: Waiting for pending navigations...
-[1566309039.507][INFO]: Done waiting for pending navigations. Status: ok
-[1566309039.507][INFO]: [c017373f9a5bf3a8e921094f834ccfc9] RESPONSE FindElement {
-   "element-6066-11e4-a52e-4f735466cecf": "d50c03a7-b573-4269-a5cf-133b3c074e63"
-}
-[1566309039.515][INFO]: [c017373f9a5bf3a8e921094f834ccfc9] COMMAND ClickElement {
-   "id": "d50c03a7-b573-4269-a5cf-133b3c074e63"
-}
-[1566309039.515][INFO]: Waiting for pending navigations...
-[1566309039.516][INFO]: Done waiting for pending navigations. Status: ok
-[1566309039.735][INFO]: Waiting for pending navigations...
-[1566309041.036][INFO]: Done waiting for pending navigations. Status: ok
-[1566309041.036][INFO]: [c017373f9a5bf3a8e921094f834ccfc9] RESPONSE ClickElement
+[1566394828.689][INFO]: Waiting for pending navigations...
+[1566394828.698][INFO]: Done waiting for pending navigations. Status: ok
+[1566394829.277][INFO]: Waiting for pending navigations...
+[1566394829.309][INFO]: Done waiting for pending navigations. Status: ok
+[1566394829.310][INFO]: [116ffde0e95d4cb792204363c44009ee] RESPONSE Screenshot "iVBORw0KGgoAAAANSUhEUgAABVYAAAJlCAYAAAAxcKmfAAAAAXNSR0IArs4c6QAAIABJREFUeJzsnXeYFEX+/19VPbMZdpe0LDlLBkFFQcAEqCiYz4g5cXqG01PEcJ4J1Ds9PTEnFOOpJ6h3KiJIVvBQcs6wgbh5d6arfn9Ud8/M7iJBxJ/fq9fz+Mx2rq7uHpx3v..."
