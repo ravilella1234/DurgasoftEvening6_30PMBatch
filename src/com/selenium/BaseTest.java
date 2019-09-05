@@ -161,7 +161,7 @@ public class BaseTest
 	{
 		//driver.get(dataload.getProperty(url));
 		driver.navigate().to(dataload.getProperty(url));
-		//driver.manage().window().maximize();
+		driver.manage().window().maximize();
 	}
 	
 	
